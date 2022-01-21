@@ -1,0 +1,17 @@
+{
+    "type": "mongodb",
+   "host": "mongodb://127.0.0.1:27017/",
+   "port": 3030,
+   "database": "admin",
+   "synchronize": true,
+   "logging": false,
+   "entities": [
+      "src/entity/**/*.ts"
+   ],
+   "migrations": [
+      "src/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ]
+}
